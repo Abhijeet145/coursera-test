@@ -1,9 +1,12 @@
 
 * {
   box-sizing: border-box;
-  font-family:Verdana;
-  background-color:lightgrey;
+
   }
+body{
+	  font-family:Verdana;
+  background-color:lightgrey;
+}
 .menu {
   float: left;
   width: 20%;
