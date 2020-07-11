@@ -2,55 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-  
-  }
-.menu {
-  float: left;
-  width: 20%;
-  
-}
-.menuitem {
-  padding: 8px;
-  margin-top: 7px;
-  border-bottom: 1px solid #f1f1f1;
-  background-color:grey;
-}
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.right {
-  background-color: lightblue;
-  float: left;
-  width: 20%;
-  padding: 10px 15px;
-  margin-top: 7px;
-}
-
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
-</style>
+<link rel="stylesheet" type="text/css" href"mystyles.css">
 </head>
-<body style="font-family:Verdana;background-color:lightgrey;">
+<body >
 
 <div style="background-color:#f1f1f1;padding:15px;text-align:center;background-image:url('tvaran.jpg');background-size:100% 100%;color:tomato ;">
   <h1>My College</h1>
@@ -58,12 +12,12 @@
 </div>
 
 <div style="overflow:auto">
-  <div class="menu">
-    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/tvaran.html" style="text-decoration:none;text-shadow:5px 5px 10px red;color:White;font-size:110%;">Tvaran</a></b></div>
-    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/hostellife.html" style="text-decoration:none;color:White;text-shadow:5px 5px 10px red;font-size:110%;">Hostel life</a></b></div>
-    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/autoride.html" style="text-decoration:none;color:White;text-shadow:5px 5px 10px red;font-size:110%;">Auto Ride</a></b></div>
-    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/durgapuja.html" style="text-decoration:none;color:White;text-shadow:5px 5px 10px red;font-size:110%;">Durga Puja</a></b></div>
-    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/earlydaysincollege.html" style="text-decoration:none;color:White;text-shadow:5px 5px 10px red;font-size:110%;">Early days in college</a></b></div>
+  <div class="menu" id="top">
+    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/tvaran.html" >Tvaran</a></b></div>
+    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/hostellife.html" >Hostel life</a></b></div>
+    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/celebrations.html">Celebrations</a></b></div>
+    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/durgapuja.html" >Durga Puja</a></b></div>
+    <div class="menuitem"><b><a href="https://abhijeet145.github.io/coursera-test/earlydaysincollege.html" >Early days in college</a></b></div>
   </div>
 
   <div class="main">
@@ -84,6 +38,7 @@
 	    <img src="rope.jpg" width="100%">
 		 <img src="tttvaran.jpg" width="100%">
   </div>
+	<a href="#top" style="text-decoration:none">Touch me to go to the top</a>
   <div class="right">
     <h2>What is Tvaran?</h2>
     <p>Tvaran is an epic contest that recites the stories of the gretest players from the best technical institutes of india. It is a 3-days event, a sports extravaganza of KNIT Sultanpur. It brings out the sporting spirit of technes of the country. </p>
